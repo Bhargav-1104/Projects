@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(51, 45, 28);
+    border: 3px solid black;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;    
+}
+nav li{
+    font-size: 2vw;
+    margin: 1vw;
+    padding: 1vw;
+    border-radius: 10px;
+}
+nav a{
+    text-decoration:none;
+    color: aliceblue;
+}
+nav li:hover{
+    background-color: rgba(0, 0, 0, 0.801);
+}
+#home{
+    background-image: url(https://i.pinimg.com/originals/28/32/ea/2832eac39a3ed1f8054a023628a6c675.gif);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    min-height: 80vw;
+    font-size: 4vw;
+}
+#home h1{
+    text-decoration:underline;
+    display: flex;
+    justify-content: center;
+}
+#menu{
+    box-sizing: border-box;
+    background-image: url(https://images.pexels.com/photos/2079438/pexels-photo-2079438.jpeg?cs=srgb&dl=pexels-emrecan-2079438.jpg&fm=jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 80vw;    
+}
+#menu h2{
+    display: flex;
+    justify-content: center;
+    font-size: 5vw;
+}
+.content{
+    display: flex;
+    justify-content:space-around;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2vw;
+}
+.content div{
+    border: 2px solid black;        
+    border-radius: 10px;
+    box-shadow: 10px 10px rgb(0, 0, 0, 0.7);
+    margin-top: 5vw;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    min-height: 400px;
+    min-width: 200px;
+}
+.content div:hover{
+    transition: ;
+}
+.content a{
+    font-size: 3vw;
+    text-decoration: none;
+    color: aliceblue;
+}
+#coffee{
+    background-image: url(https://cdn.pixabay.com/photo/2022/11/01/05/18/coffee-7561288_640.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#food{
+    background-image: url(https://media.istockphoto.com/id/518468635/photo/french-pastries-on-display-a-confectionery-shop.jpg?s=612x612&w=0&k=20&c=av7rYRCLckvDp6s9sGmA_S9Lp_fTSDSSOtmR0wWJ8nY=);
+    background-position: center;
+    background-size: cover;
+}
+#order{
+    background-image: url(https://dianapps.com/blog/wp-content/uploads/2023/06/Food-Delivery-App-In-the-USA.png);
+    background-position: center;
+    background-size: cover;
+}
+#about{
+    background-image: url(https://wallpapers.com/images/hd/dark-brown-background-1920-x-1200-k56c55z0r1wqm7i6.jpg);
+    color: aliceblue;
+    font-size: 2vw;
+    min-height: 60vw;
+}
+#contact{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKP2KNtVTrILXX1PeJoNphwezIu1erSfkmzA&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+
+}
