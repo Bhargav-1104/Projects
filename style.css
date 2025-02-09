@@ -5,7 +5,7 @@
 }
 header{
     background-color: rgb(51, 45, 28);
-    border: 3px solid black;
+    border: 0.3vw solid black;
 }
 nav ul{
     list-style: none;
@@ -45,12 +45,13 @@ nav li:hover{
     background-image: url(https://images.pexels.com/photos/2079438/pexels-photo-2079438.jpeg?cs=srgb&dl=pexels-emrecan-2079438.jpg&fm=jpg);
     background-size: cover;
     background-position: center;
-    min-height: 80vw;    
+    min-height: 80vh;    
 }
 #menu h2{
     display: flex;
     justify-content: center;
     font-size: 5vw;
+    background-color: rgba(246, 246, 250, 0.5);
 }
 .content{
     display: flex;
@@ -66,8 +67,8 @@ nav li:hover{
     box-shadow: 10px 10px rgb(0, 0, 0, 0.7);
     margin-top: 5vw;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    min-height: 300px;
-    min-width: 200px;
+    min-height: 40vh;
+    min-width: 30vw;
 }
 .content div:hover{
     transition: ;
@@ -80,23 +81,26 @@ nav li:hover{
 #coffee{
     background-image: url(https://cdn.pixabay.com/photo/2022/11/01/05/18/coffee-7561288_640.jpg);
     background-position: center;
+    text-align: center;
     background-size: cover;
 }
 #food{
     background-image: url(https://media.istockphoto.com/id/518468635/photo/french-pastries-on-display-a-confectionery-shop.jpg?s=612x612&w=0&k=20&c=av7rYRCLckvDp6s9sGmA_S9Lp_fTSDSSOtmR0wWJ8nY=);
     background-position: center;
     background-size: cover;
+    text-align: center;
 }
 #order{
     background-image: url(https://dianapps.com/blog/wp-content/uploads/2023/06/Food-Delivery-App-In-the-USA.png);
     background-position: center;
     background-size: cover;
+    text-align: center;
 }
 #about{
     background-image: url(https://wallpapers.com/images/hd/dark-brown-background-1920-x-1200-k56c55z0r1wqm7i6.jpg);
     color: aliceblue;
     font-size: 2vw;
-    min-height: 60vw;
+    min-height: 20vh;
 }
 #contact{
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKP2KNtVTrILXX1PeJoNphwezIu1erSfkmzA&s);
